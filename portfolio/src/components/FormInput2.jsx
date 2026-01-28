@@ -7,7 +7,7 @@ const FormInput2 = () => {
         <div>
             <label htmlFor="">
                 Name:
-                <input type="text" value={name} onChange={()=>setName} />
+                <input type="text" value={name} onChange={()=>setName } />
             </label>
         </div>
     </form>
